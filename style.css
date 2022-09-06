@@ -1,0 +1,24 @@
+body > div {
+  border: 1px solid red;
+}
+body > div > h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  text-align: center;
+  border-bottom: 1px solid blue;
+  color: rgb(95, 247, 128);
+}
+body > div > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+body > div > section article {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(95, 247, 128);
+}
+
+/*# sourceMappingURL=style.css.map */

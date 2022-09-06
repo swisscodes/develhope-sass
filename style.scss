@@ -1,0 +1,29 @@
+// c before any variables stands for color also since underscore is allowed i will always
+//use underscore for variable names to stand same line with all other programming conventions */
+$c_red: red;
+$c_blue: blue;
+$c_green: rgb(95, 247, 128);
+
+body > div {
+  border: 1px solid $c_red;
+  > h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    text-align: center;
+    border-bottom: 1px solid $c_blue;
+    color: $c_green;
+  }
+  & > section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+
+    article {
+      text-align: center;
+      padding: 10px;
+      border: 1px solid $c_green;
+    }
+  }
+}
